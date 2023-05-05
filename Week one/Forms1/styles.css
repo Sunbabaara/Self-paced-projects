@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background: url(./lead.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: darkseagreen;
+}
+.form{
+    padding: 10vh;
+    background: transparent;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin:auto;
+    width: 50%;
+}
+h1{
+    text-align: center;
+}

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Open+Sans:wght@300&family=Quicksand:wght@300;400');
+
+  @import url('https://fonts.googleapis.com/css2?family=Karla&family=Open+Sans:wght@300&family=Quicksand:wght@300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    
+}
+.main-nav li{
+    padding: 0 5%;
+}
+nav li{
+    display: inline;
+}
+.nav ul{
+    margin: 0;
+   
+}
+.main-header{
+    background-image: url("images/colors.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav a{
+    display:inline-block;
+    padding: .5cm;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+background-color: black
+};
+
+.brand{
+    font-size: 4em;
+    font-weight: normal;
+}
+.beauty{
+    margin: 1em;
+    color: white;
+    text-align: center;
+}
+section{
+    margin: 1cm;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.about{
+    text-align: center;
+    font-size: 2.5em;
+}
+.beaut-image{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+.main-footer{
+    background-color: #56CCF2;
+    color: white;
+    padding: .25em;
+}
+div{
+    display: flex;
+}
+div ul{
+    flex-grow: 1;
+    text-align: end;
+    list-style: none;
+}
+.footery li{
+    padding: 0 .5em;
+    display: inline;
+   
+}
+.footery li a{
+    height: 32px;
+    width: 32px;
+    text-decoration: none;
+    color: white;
+}
