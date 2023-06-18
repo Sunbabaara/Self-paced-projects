@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color:navy;
+    padding:20px;
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    top: 0;
+}
+nav{
+    display:flex ;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+li a:hover{
+color: chocolate;
+}
+p{
+    color: white;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+div img{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    
+}

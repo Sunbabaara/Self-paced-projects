@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+body{
+    min-height: 100vh;
+    background-image: url(./desk.jpg);
+    background-position: center;
+    background-size: cover;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0.5px 10px rgba(0, 0, 0, .5);
+    padding: 20px 7%;
+    display: flex;
+}
