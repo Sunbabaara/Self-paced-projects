@@ -8,6 +8,7 @@
     box-sizing: border-box;
 }
 body{
+    width: 100%;
     background: #ffffff;
     border-radius: 8px;
     font-family: Space Mono;
@@ -68,8 +69,12 @@ p{
 footer{
    padding-left: 40%;
    float: left;
+
 }
-@media screen and(max-width: 800px){
+footer p{
+    font-size: 10px;
+}
+@media screen and(max-width: 600px){
     nav,main.imag, main.article footer{
         width: 100%;
     }
